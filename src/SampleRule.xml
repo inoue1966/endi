@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<digester-rules>
+    <pattern value="labelinfo">
+        <object-create-rule classname="jasper.LabelInfo" />
+        <set-properties-rule/>
+    </pattern>
+    
+</digester-rules>
